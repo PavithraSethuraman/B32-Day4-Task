@@ -9,40 +9,35 @@ for (let i = 1; i <= n; i++) {
   string += "\n";
 }
 console.log(string);
+
+
 //b.Iterate through the string array and print it contents
 var strArray= ["Jazz","Blues","New Age","Classical","Opera"]
 console.log(... strArray)
+
 //c.write a code to count the elements in the array . Don’t use length property
 var myarray=[11,22,33,44,55]
 myarray.map((e) => {
 console.log(e)
 })
+
+
 //d.Foods variable holds the names of your top 20 favorite foods, 
 //starting with the best food. How can you find your fifth favorite food?
 let food=["rice","dal","chapathi","biriyani","pizza","burger","gheerice","tandoori",
 "naan","paneet pulao","chettinadchicken","poori","dosa","idly",
 "pongal","curdrice","panipoori","muttoncurry","fishfinger","prawn65"]
+
 //e.Find the length of your foods array
 console.log(food.length)
 let a= [... food]
 console.log(a[5])
-//f.Starting from the existing friends variable below, change the element that is currently “Mari” to “Munnabai”.
+
+//f.Starting from the existing friends variable below, 
+//change the element that is currently “Mari” to “Munnabai”.
 let friends = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
 function dataHandling(input){
-    for (var i = 0; i < input.length; i++) {
-        if (friends[i] === 'Mari') {
-             friends[i] = 'Munnabai';
-        }
-        
-        console.log(friends);
-    }
+  input.splice(0, 1, "Munnabai");
+console.log(input)
     }
     dataHandling(friends);
-function dataHandling(input){
-    
- for (var i = 0; i < input.length-3; i++) {
-console.log(friends[i])
- }    
-    }
-        dataHandling(friends);
-

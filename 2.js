@@ -4,14 +4,14 @@ let a=5
 let b= a**2
 console.log(b)
 //b.Swapping 2 numbers
-let x = prompt('Enter first value: ')
-let y = prompt('Enter second value: ')
-let z
-z=x
-x=y
-y=z
-console.log(`Value of x after swapping : ${x}`);
-console.log(`Value of y after swapping  : ${y}`);
+let x11 = prompt('Enter first value: ')
+let y11 = prompt('Enter second value: ')
+let z11
+z11=x11
+x11=y11
+y11=z11
+console.log(`Value of x after swapping : ${x11}`);
+console.log(`Value of y after swapping  : ${y11}`);
 //c.Addition of 3 numbers
 let a1=5
 let b1=2
@@ -51,8 +51,8 @@ console.log(power)
 //j.Calculate Simple Interest
 let p=36000
 let n=12
-let r=12.6
-let SI = (p*n*r)/100
+let r11=12.6
+let SI = (p*n*r11)/100
 console.log(SI)
 //k.Calculate area of an equilateral triangle
 let a3=5
@@ -85,23 +85,23 @@ let soldCost=475
 let discountOfProduct=actualCost-soldCost
 console.log(discountOfProduct)
 //q.Given their radius of a circle and find its diameter, circumference and area.
-let r=10
-let diameterOfCircle = 2 * r
-let circumferenceOfCircle= 2 * Math.PI * r
-let areaOfCircle = Math.PI * r * r
+let r22=10
+let diameterOfCircle = 2 * r22
+let circumferenceOfCircle= 2 * Math.PI * r22
+let areaOfCircle = Math.PI * r22 * r22
 console.log(diameterOfCircle)
 console.log(circumferenceOfCircle)
 console.log(areaOfCircle)
 //r.Given two numbers and perform all arithmetic operations.
-let p=5
-let q=2
-   let sum = p + q;
-   let sub = p - q;
-   let mul = p * q;
-   let div = p / q;
-   let mod = p % q;
-   let sqr = p ** q
-console.log(sum)
+let p0=5
+let q0=2
+   let sum0 = p0 + q0;
+   let sub = p0 - q0;
+   let mul = p0 * q0;
+   let div = p0 / q0;
+   let mod = p0 % q0;
+   let sqr = p0 ** q0;
+console.log(sum0)
 console.log(sub)
 console.log(mul)
 console.log(div)
@@ -110,8 +110,8 @@ console.log(sqr)
 //s.Display the asterisk pattern as shown below(No loop needed)
 let a6=["*","*","*","*","*"]
 a6.map((e)=>{
-    d=e+e+e+e+e
-console.log(d)
+    d0=e+e+e+e+e
+console.log(d0)
 })
 //t.Calculate electricity bill? //per hour 100watt,per unit10rs
 let unitPerHourInWatt=100
@@ -129,4 +129,15 @@ let mark4=100
 let mark5=99
 let CGPA=(mark1+mark2+mark3+mark4+mark5)/5
 console.log(CGPA)
+
+//Starting from the friends variable below, 
+//Loop and Print the names till you meet CaptianAmerica.
+let friendsss = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+function dataHandling(inputt){
+    
+ for (var i = 0; i < inputt.length-3; i++) {
+console.log(inputt[i])
+ }    
+    }
+        dataHandling(friendsss);
 
