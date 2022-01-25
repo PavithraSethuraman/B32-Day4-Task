@@ -5,9 +5,12 @@ let b
 let c
 let d
 console.log(10,20,30,40)
+
+
 //b.How to get value of the variable myvar as output
 var myvar= 1;
 console.log(myvar);
+
 // //c. Declare variables to store your first name, last name, marital status, country and age in multiple lines
 let e={
 first_name:"Pavithra",
@@ -17,6 +20,7 @@ country:"India",
 age:"29"
 }
 console.log(e)
+
 //d. Declare variables and assign string, boolean, undefined and null data types
 let f="guvi"
 let g=true
@@ -27,11 +31,16 @@ console.log(typeof(g))
 console.log(typeof(h))
 console.log(typeof(l))
 //e.Convert the string to integer
-let y="12"
-var yy = +y
+let y="i am 20 years old"
+var yy = "you are 30 years old"
 console.log(parseInt(y))
 console.log(Number(y))
-console.log(yy)
+console.log(+(y))
+console.log(parseInt(yy))
+console.log(Number(yy))
+console.log(+(yy))
+
+
 //f.Write 6 statement which provide truthy & falsey values.
 let v=1
 v="1"

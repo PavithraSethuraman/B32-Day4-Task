@@ -15,10 +15,10 @@ let found = dataHandling(friends0,"Jeff");
         
 //1.Get the first item, the middle item and the last item of the array
 
-let arrayVal=[10,25,36,56,14,28]
-let firstElement=arrayVal[0]
-let midElement=arrayVal[arrayVal.length/2]
-let lastElement=arrayVal[arrayVal.length-1]
+let friends000 = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+let firstElement=friends000[0]
+let midElement=friends000[friends000.length/2]
+let lastElement=friends000[friends000.length-1]
 console.log(firstElement)
 console.log(midElement)
 console.log(lastElement)
@@ -44,7 +44,7 @@ let avgOfc = c.join('').length / c.length // and its avg
 console.log(avgOfc)
 
 
-//Find the names and return the list starting with letter M.
+//Find the names and return t`he list starting with letter M.
 let friends5 = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"]
     const startWith2 = friends5.filter((name) => name.startsWith("M"));
     console.log(startWith2)
@@ -104,8 +104,10 @@ var input = [
 
 //What the output
  var myobject = {1:'one','11':1,'name':'arun'}
-// console.log(myobject.11)//error ERROR
+// console.log(myobject.11)//ERROR
 console.log(myobject.name)//arun
+
+
 // Add a new key value pair to myobject
 myobject.ten='ten'
 console.log(myobject)
@@ -113,5 +115,23 @@ console.log(myobject)
 
 //Write out an object literal to represent the data below.
 // Guvi, Geek, 6, IIT-M RP,Chennai.
-// const info={fname:'Guvi',lname:'Geek',no:6,Address:"IIT-M RP,Chennai"}
-// console.log(info)
+const info=[['Guvi','Geek',6 ,"IIT-M RP,Chennai"],
+            ["Amazon", "Inc", 31, "SP Infocity, Chennai"],
+            ["Google", "Alphabet", 34 ,"Amphitheater Parkway, MountainView"],
+            ["Tesla", "Inc" , 32, "333 Santana Row,San Jose"]]
+            console.log(info)
+
+//Find the average in the array below.
+//Make sure you add only the numbers and do avg.
+const friendsInfo = [6, 12, 'Mari', 1, true, 'Munnabai', '200', 'CaptianAmerica', 8, 10];
+const mapArray = friendsInfo.filter((item) => {
+  if (item < 0 || item >= 0  && item!==true && item!=='200') return item;
+});
+var add = 0;
+for (var i = 0; i < mapArray.length; i++) {
+add = add+ mapArray[i] }
+console.log(add)
+
+
+//3. Add Mr or Ms to the names in the friends array.
+// let friends003 = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
