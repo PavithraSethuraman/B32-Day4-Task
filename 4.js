@@ -134,4 +134,15 @@ console.log(add)
 
 
 //3. Add Mr or Ms to the names in the friends array.
-// let friends003 = ["Mari","MaryJane","CaptianAmerica","Munnabai","Jeff","AAK chandran"];
+let friends003 = [{name:"Mari",gender:"M"},
+{name:"MaryJane",gender:"F"},{name:"CaptianAmerica",gender:"F"},
+{name:"Munnabai",gender:"F"},{name:"Jeff",gender:"M"},{name:"AAK chandran",gender:"M"}];
+let o=friends003.filter((e)=>{
+    if(e.gender=="M"){
+        console.log("Mr"+" "+e.name)
+    }else{
+        console.log("Ms"+" "+e.name)
+    }})
+    
+
+
